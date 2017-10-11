@@ -1,0 +1,22 @@
+{
+  "name": "amss-react-mailchimp-api",
+  "version": "1.0.0",
+  "description": "Backend project for Amss React newsletter written in Node.js and Restify",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spartan082189/tutorial-react-newsletter-api.git"
+  },
+  "author": "Fu",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^1.12.1",
+    "request": "^2.81.0",
+    "restify": "^5.2.0",
+    "restify-cors-middleware": "^1.0.1"
+  }
+}
